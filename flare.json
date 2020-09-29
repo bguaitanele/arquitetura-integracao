@@ -4,6 +4,7 @@
         "imports": [
             "brb.automacao.BLK",
             "brb.automacao.MBK",
+            "brb.Infoconv",
             "brb.ABX"
         ]
     },
@@ -33,6 +34,12 @@
     },
     {
         "name": "brb.CND",
+        "imports": [
+            
+        ]
+    },
+    {
+        "name": "brb.Infoconv",
         "imports": [
             
         ]
