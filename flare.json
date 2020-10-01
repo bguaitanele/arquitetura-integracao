@@ -1,4 +1,36 @@
-SBA","SBE","SEFAZ","SEGUROS BRB","SMD","SPI","SPI"]
+[{
+	"name": "ABA",
+	"imports": ["AUT","BLK","NPC","NPC"]
+}, {
+	"name": "ABX",
+	"imports": ["BLK","DETRAN","MAS","NPC","SEFAZ","SMD","SMD"]
+}, {
+	"name": "ACO",
+	"imports": ["AOX","APS","BLK","MBK (EJB)","SGA","SMD","SMD"]
+}, {
+	"name": "ACR",
+	"imports": ["GCR","GCR"]
+}, {
+	"name": "APB",
+	"imports": ["AOX","AUT","BLK","HRX","MPS","MSG","MSG"]
+}, {
+	"name": "ATB",
+	"imports": ["APB","BLK","NPC","NPC"]
+}, {
+	"name": "ATC",
+	"imports": ["APB","BLK","NPC","NPC"]
+}, {
+	"name": "AUB",
+	"imports": ["BLK","GPM","GPM"]
+}, {
+	"name": "BCJ",
+	"imports": ["APA","AUT","CTU","DCC","FCB","FFA","FFA"]
+}, {
+	"name": "BIO",
+	"imports": ["AUTOMAÇÃO"]
+}, {
+	"name": "BLK",
+	"imports": ["ABX","ACO","APB","APB - REST","AUT","BRB CARD","BRS","CBR GW","CCL","CHR","DATAPREV (NAI)","DETRAN","FRM","GPM","GTE","IBK (EJB)","INFOCONV","MBK (EJB)","MCP","NPC","SAB","SBA","SBE","SEFAZ","SEGUROS BRB","SMD","SPI","SPI"]
 }, {
 	"name": "BNR",
 	"imports": ["ODS","ODS"]
