@@ -1,47 +1,205 @@
-[
-    {
-        "name": "brb.ACO",
-        "imports": [
-            "brb.automacao.BLK",
-            "brb.automacao.MBK",
-            "brb.Infoconv",
-            "brb.ABX"
-        ]
-    },
-    {
-        "name": "brb.automacao.BLK",
-        "imports": [
-            "brb.automacao.MBK"
-        ]
-    },
-    {
-        "name": "brb.automacao.MBK",
-        "imports": [
-            
-        ]
-    },
-    {
-        "name": "brb.ABX",
-        "imports": [
-            
-        ]
-    },
-    {
-        "name": "brb.SCI",
-        "imports": [
-            "brb.CND"
-        ]
-    },
-    {
-        "name": "brb.CND",
-        "imports": [
-            
-        ]
-    },
-    {
-        "name": "brb.Infoconv",
-        "imports": [
-            
-        ]
-    }
-]
+[{
+	"name": "ABA",
+	"imports": ["AUT","BLK","NPC","NPC"]
+}, {
+	"name": "ABX",
+	"imports": ["BLK","DETRAN","MAS","NPC","SEFAZ","SMD","SMD"]
+}, {
+	"name": "ACO",
+	"imports": ["AOX","APS","BLK","MBK (EJB)","SGA","SMD","SMD"]
+}, {
+	"name": "ACR",
+	"imports": ["GCR","GCR"]
+}, {
+	"name": "APB",
+	"imports": ["AOX","AUT","BLK","HRX","MPS","MSG","MSG"]
+}, {
+	"name": "ATB",
+	"imports": ["APB","BLK","NPC","NPC"]
+}, {
+	"name": "ATC",
+	"imports": ["APB","BLK","NPC","NPC"]
+}, {
+	"name": "AUB",
+	"imports": ["BLK","GPM","GPM"]
+}, {
+	"name": "BCJ",
+	"imports": ["APA","AUT","CTU","DCC","FCB","FFA","FFA"]
+}, {
+	"name": "BIO",
+	"imports": ["AUTOMAÇÃO"]
+}, {
+	"name": "BLK",
+	"imports": ["ABX","ACO","APB","APB - REST","AUT","BRB CARD","BRS","CBR GW","CCL","CHR","DATAPREV (NAI)","DETRAN","FRM","GPM","GTE","IBK (EJB)","INFOCONV","MBK (EJB)","MCP","NPC","SAB","SBA","SBE","SEFAZ","SEGUROS BRB","SMD","SPI","SPI"]
+}, {
+	"name": "BNR",
+	"imports": ["ODS","ODS"]
+}, {
+	"name": "CBR",
+	"imports": ["AOM","AOX","APS","AUT","CWS","DCB","ECB","GCR","GPW","ODS","PRO","PRO"]
+}, {
+	"name": "CCR",
+	"imports": ["EIS","EIS"]
+}, {
+	"name": "CHR",
+	"imports": ["IBK (EJB)","IBK (EJB)"]
+}, {
+	"name": "CIX",
+	"imports": ["BLK","GPM","GPM"]
+}, {
+	"name": "CJU",
+	"imports": ["SAP","SPL","SPL"]
+}, {
+	"name": "CLI",
+	"imports": ["BRS","SAV","SAV"]
+}, {
+	"name": "CMB",
+	"imports": ["SPL","SPL"]
+}, {
+	"name": "CNB",
+	"imports": ["ATB","CMS","SGA","SGA"]
+}, {
+	"name": "COH",
+	"imports": ["CCT","DCC","DCC"]
+}, {
+	"name": "CPG",
+	"imports": ["DCC","SAP","SAP"]
+}, {
+	"name": "CRK",
+	"imports": ["AUTOMAÇÃO","BLK","DCC","SPL","SPL"]
+}, {
+	"name": "CSS",
+	"imports": ["SERASA","SERASA"]
+}, {
+	"name": "DFC",
+	"imports": ["DCT","DCT"]
+}, {
+	"name": "EIS",
+	"imports": ["ETL","ZABBIX","ZABBIX"]
+}, {
+	"name": "FDF",
+	"imports": ["BRS-FUNCIONARIOS","BRS-INDICES","BRS-INVESTIMENTOS","BRS-INVESTIMENTOS"]
+}, {
+	"name": "FDI",
+	"imports": ["CRS","DCC","DCC"]
+}, {
+	"name": "FLEX",
+	"imports": ["CRS","DCC","DCC"]
+}, {
+	"name": "GAT",
+	"imports": ["CADASTRO (MS)"]
+}, {
+	"name": "GBW",
+	"imports": ["AUTOMAÇÃO"]
+}, {
+	"name": "GPI",
+	"imports": ["SPI","SPI"]
+}, {
+	"name": "GPW",
+	"imports": ["AOX","APA","BKT","CCD","CCT","COC","DCC","ETL","FCG","GCR","GRQ","HCT","HCT"]
+}, {
+	"name": "GRO NOVO",
+	"imports": ["SAP","SAP"]
+}, {
+	"name": "GRW",
+	"imports": ["BKT"]
+}, {
+	"name": "GTE",
+	"imports": ["CBR","DCB","MSG","NPC","NPC"]
+}, {
+	"name": "HMD",
+	"imports": ["SGA","SGA"]
+}, {
+	"name": "HRX",
+	"imports": ["BB","BLK","BRB CARD","MASTERCARD","PERTO","TECBAN","VISA","VISA"]
+}, {
+	"name": "HRX HOST",
+	"imports": ["VÁRIOS SISTEMAS ALTA"]
+}, {
+	"name": "IBK",
+	"imports": ["CHR","GAS","GPM","SAP","SAP"]
+}, {
+	"name": "ITB",
+	"imports": ["MSG"]
+}, {
+	"name": "MAF",
+	"imports": ["AUTOMAÇÃO"]
+}, {
+	"name": "MBK",
+	"imports": ["BOLETOS","GPM","GPM"]
+}, {
+	"name": "MBK APP",
+	"imports": ["MS API BRB"]
+}, {
+	"name": "MCP",
+	"imports": ["BRS"]
+}, {
+	"name": "MGF",
+	"imports": ["CTR"]
+}, {
+	"name": "MGM",
+	"imports": ["MSG"]
+}, {
+	"name": "MYB",
+	"imports": ["CLI","GPM","GPM"]
+}, {
+	"name": "PLC",
+	"imports": ["SAP"]
+}, {
+	"name": "RCG",
+	"imports": ["PIB","PIB"]
+}, {
+	"name": "REC",
+	"imports": ["IPREV"]
+}, {
+	"name": "RMB",
+	"imports": ["COH","CTR","DCC","POD","SAP","SAP"]
+}, {
+	"name": "SAF",
+	"imports": ["DCC","DNC","SPL","SPL"]
+}, {
+	"name": "SBA",
+	"imports": ["SGB"]
+}, {
+	"name": "SBE",
+	"imports": ["CTR","DCB","DSC","EAC","ECC","FCG","OCA","OCG","SAP","SAP"]
+}, {
+	"name": "SCD",
+	"imports": ["BRS-CLIENTES","BRS-FUNCIONARIOS","BRS-INDICES","BRS-PRODUTOS","BRS-PROPOSTAS","CTR","DCC","GCR","GCR"]
+}, {
+	"name": "SCI",
+	"imports": ["CIN","COH","CONSIST (SERPRO)","CTC","CTU","DCB","DDA (CIP)","DNA (CIP)","DNC","DPJ","INFOCONV","PCS (CIP)","POB","SAP","SCG (CIP)","SCR (BACEN)","SERASA","SILOC (CIP)","SLC (CIP)","STD (CIP)","TTB","VSN","VSN"]
+}, {
+	"name": "SEC",
+	"imports": ["HCC"]
+}, {
+	"name": "SFC",
+	"imports": ["CIP","MSG","SAP","SAP"]
+}, {
+	"name": "SGT",
+	"imports": ["BRS-FUNCIONARIOS","BRS-INDICES","BRS-PROPOSTAS","GCR","POD","POD"]
+}, {
+	"name": "SGT-WEBSERVICE",
+	"imports": ["SERIES TEMPORAIS(BACEN)"]
+}, {
+	"name": "SMB",
+	"imports": ["MSG","MSG"]
+}, {
+	"name": "SMD",
+	"imports": ["ACO","BLK","HRX","HRX"]
+}, {
+	"name": "SPL",
+	"imports": ["ETL"]
+}, {
+	"name": "SRR",
+	"imports": ["GCR"]
+}, {
+	"name": "SVA",
+	"imports": ["BRS"]
+}, {
+	"name": "TTB",
+	"imports": ["AUTOMAÇÃO","DCC","MSG","SPL","SPL"]
+}, {
+	"name": "VTD",
+	"imports": ["FLEXDOC"]
+}]
