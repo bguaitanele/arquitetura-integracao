@@ -2,9 +2,6 @@
 	{
 	"name": "flare.ABA",
 	"imports": ["flare.AUT","flare.BLK"]
-}, {
-	"name": "flare.ABX",
-	"imports": ["flare.BLK","flare.DETRAN"]
 },{
 	"name": "flare.BLK",
 	"imports": []

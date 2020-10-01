@@ -4,14 +4,23 @@
 <head>
   <meta charset="utf-8" />
   <title>Integrações entre sistemas</title>
-  <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
-  <script src="https://d3js.org/d3.v5.min.js"></script>
+  <link rel="stylesheet" type="text/css" media="screen" href="grafico.css" />
+  <script src="https://code.highcharts.com/highcharts.js"></script>
+  <script src="https://code.highcharts.com/modules/sankey.js"></script>
+  <script src="https://code.highcharts.com/modules/dependency-wheel.js"></script>
+  <script src="https://code.highcharts.com/modules/exporting.js"></script>
+  <script src="https://code.highcharts.com/modules/export-data.js"></script>
+  <script src="https://code.highcharts.com/modules/accessibility.js"></script>
 </head>
 
 <body>
-  <h1>Intgrações entre sistemas</h1>
-  <svg></svg>
-  <script src="main.js"></script>
+  <h1>Integrações entre sistemas</h1>
+  <figure class="highcharts-figure">
+    <div id="container"></div>
+  </figure>
+
+
+  <script src="grafico.js"></script>
 </body>
 
 </html>
