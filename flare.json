@@ -9,9 +9,6 @@
 	"name": "flare.BLK",
 	"imports": []
 },{
-	"name": "flare.DETRAN",
-	"imports": []
-},{
 	"name": "flare.AUT",
 	"imports": []
 }
