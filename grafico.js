@@ -12,6 +12,7 @@ Highcharts.chart('container', {
 
     series: [{
         keys: ['from', 'to', 'weight'],
+
         data: [ ["ABA","ABX",1]
             ,["ABA","AUT",1]
             ,["ABA","BLK",1]
@@ -392,16 +393,21 @@ Highcharts.chart('container', {
         type: 'dependencywheel',
         name: 'Integração',
         dataLabels: {
+
             color: '#333',
+            allowOverlap: true,
+            style:{
+                fontSize:30
+            },
             textPath: {
                 enabled: true,
                 attributes: {
-                    dy: 5
+                    dy: 10,
                 }
             },
-            distance: 10
+            distance: 30
         },
-        size: '95%'
+        size: '100%'
     }]
 
 });

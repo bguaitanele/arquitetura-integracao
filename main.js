@@ -21,7 +21,35 @@ var line = d3.line()
 var node,
     link;
 
+function convert(data){
+    //entrada [A,B,1]
+    /**
+     * saida
+     * {
+            "name": "ACR",
+            "imports": ["GCR","GCR"]
+        }
+     */
+    const output = {};
+    data.forEach( ([sistemaA,sistemaB]) => {
+       if( !(sistemaA in output) ){
+           output[sistemaA] = {name: `flare.${sistemaA}`, imports: []}
+       }
+        if( !(sistemaB in output) ){
+            output[sistemaB] = {name: `flare.${sistemaB}`, imports: []}
+        }
+        output[sistemaA].imports.push(`flare.${sistemaB}`);
+    });
+    return Object.values(output);
+
+
+}
+
+
+
 d3.json("flare.json").then(function (data) {
+    data = convert(data);
+    console.log(JSON.stringify(data));
     addParentNode(data);
     var root = stratify(data);
     cluster(root);
@@ -89,6 +117,7 @@ function getPaths(leaves) {
 
 function mouseovered(d) {
     node.each(n => { n.target = n.source = false; });
+    debugger;
     link.classed("link--target", l => { if (l.target === d) return l.source.source = true; })
         .classed("link--source", l => { if (l.source === d) return l.target.target = true; })
         .filter(l => l.target === d || l.source === d)

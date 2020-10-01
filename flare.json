@@ -1,247 +1,376 @@
-[{
-		"name": "flare.ABA",
-		"imports": ["flare.AUT", "flare.BLK", "flare.NPC", "flare.NPC"]
-	}, {
-		"name": "flare.ABX",
-		"imports": ["flare.BLK", "flare.BLK", "flare.DETRAN", "flare.MAS", "flare.NPC", "flare.SEFAZ", "flare.SMD", "flare.SMD"]
-	}, {
-		"name": "flare.ACO",
-		"imports": ["flare.AOX", "flare.APS", "flare.BLK", "flare.MBK (EJB)", "flare.SGA", "flare.SMD", "flare.SMD"]
-	}, {
-		"name": "flare.ACR",
-		"imports": ["flare.BRS-PROPOSTAS", "flare.BRS-PROPOSTAS", "flare.GCR", "flare.GCR", "flare.GCR", "flare.GCR"]
-	}, {
-		"name": "flare.APB",
-		"imports": ["flare.AOX", "flare.AUT", "flare.BLK", "flare.HRX", "flare.MPS", "flare.MSG", "flare.MSG"]
-	}, {
-		"name": "flare.ATB",
-		"imports": ["flare.APB", "flare.BLK", "flare.NPC", "flare.NPC"]
-	}, {
-		"name": "flare.ATC",
-		"imports": ["flare.APB", "flare.BLK", "flare.NPC", "flare.NPC"]
-	}, {
-		"name": "flare.AUB",
-		"imports": ["flare.BLK", "flare.GPM", "flare.GPM"]
-	}, {
-		"name": "flare.BCJ",
-		"imports": ["flare.APA", "flare.AUT", "flare.CTU", "flare.DCC", "flare.FCB", "flare.FFA", "flare.FFA"]
-	}, {
-		"name": "flare.BIO",
-		"imports": ["flare.AUTOMAÇÃO"]
-	}, {
-		"name": "flare.BLK",
-		"imports": ["flare.ABX", "flare.ACO", "flare.APB", "flare.APB - REST", "flare.AUT", "flare.BRB CARD", "flare.BRS", "flare.CBR GW", "flare.CCL", "flare.CHR", "flare.DATAPREV (NAI)", "flare.DETRAN", "flare.FRM", "flare.GPM", "flare.GTE", "flare.IBK (EJB)", "flare.INFOCONV", "flare.MB"]
-	},
-	{
-		"name": "flare.BNR",
-		"imports": ["flare.ODS", "flare.ODS"]
-	},
-	{
-		"name": "flare.CBR",
-		"imports": ["flare.AOM", "flare.AOX", "flare.APS", "flare.AUT", "flare.CWS", "flare.DCB", "flare.ECB", "flare.GCR", "flare.GPW", "flare.ODS", "flare.PRO", "flare.PRO"]
-	},
-	{
-		"name": "flare.CCR",
-		"imports": ["flare.EIS", "flare.EIS"]
-	},
-	{
-		"name": "flare.CHR",
-		"imports": ["flare.IBK (EJB)", "flare.IBK (EJB)"]
-	},
-	{
-		"name": "flare.CIX",
-		"imports": ["flare.BLK", "flare.GPM", "flare.GPM"]
-	},
-	{
-		"name": "flare.CJU",
-		"imports": ["flare.SAP", "flare.SPL", "flare.SPL"]
-	},
-	{
-		"name": "flare.CLI",
-		"imports": ["flare.BRS", "flare.SAV", "flare.SAV"]
-	},
-	{
-		"name": "flare.CMB",
-		"imports": ["flare.SPL", "flare.SPL"]
-	},
-	{
-		"name": "flare.CNB",
-		"imports": ["flare.ATB", "flare.CMS", "flare.SGA", "flare.SGA"]
-	},
-	{
-		"name": "flare.COH",
-		"imports": ["flare.CCT", "flare.DCC", "flare.DCC"]
-	},
-	{
-		"name": "flare.CPG",
-		"imports": ["flare.DCC", "flare.SAP", "flare.SAP"]
-	},
-	{
-		"name": "flare.CRK",
-		"imports": ["flare.AUTOMAÇÃO", "flare.BLK", "flare.DCC", "flare.SPL", "flare.SPL"]
-	},
-	{
-		"name": "flare.CSS",
-		"imports": ["flare.AOX", "flare.AOX", "flare.AOX", "flare.AOX", "flare.AOX", "flare.SERASA", "flare.SERASA", "flare.SERASA", "flare.SERASA"]
-	},
-	{
-		"name": "flare.DFC",
-		"imports": ["flare.DCT", "flare.DCT"]
-	},
-	{
-		"name": "flare.EIS",
-		"imports": ["flare.ETL", "flare.ZABBIX", "flare.ZABBIX"]
-	},
-	{
-		"name": "flare.FDI",
-		"imports": ["flare.CRS", "flare.DCC", "flare.DCC"]
-	},
-	{
-		"name": "flare.FLEX",
-		"imports": ["flare.CRS", "flare.DCC", "flare.DCC"]
-	},
-	{
-		"name": "flare.GAT",
-		"imports": ["flare.CADASTRO (MS)"]
-	},
-	{
-		"name": "flare.GBW",
-		"imports": ["flare.AUTOMAÇÃO"]
-	},
-	{
-		"name": "flare.GPI",
-		"imports": ["flare.SPI", "flare.SPI"]
-	},
-	{
-		"name": "flare.GPW",
-		"imports": ["flare.AOX", "flare.APA", "flare.BKT", "flare.CCD", "flare.CCT", "flare.COC", "flare.DCC", "flare.ETL", "flare.FCG", "flare.GCR", "flare.GRQ", "flare.HCT", "flare.HCT"]
-	},
-	{
-		"name": "flare.GRO NOVO",
-		"imports": ["flare.SAP", "flare.SAP"]
-	},
-	{
-		"name": "flare.GRW",
-		"imports": ["flare.BKT"]
-	},
-	{
-		"name": "flare.GTE",
-		"imports": ["flare.CBR", "flare.DCB", "flare.MSG", "flare.NPC", "flare.NPC"]
-	},
-	{
-		"name": "flare.HMD",
-		"imports": ["flare.SGA", "flare.SGA"]
-	},
-	{
-		"name": "flare.HRX",
-		"imports": ["flare.BB", "flare.BLK", "flare.BRB CARD", "flare.MASTERCARD", "flare.PERTO", "flare.TECBAN", "flare.VISA", "flare.VISA"]
-	},
-	{
-		"name": "flare.HRX HOST",
-		"imports": ["flare.VÁRIOS SISTEMAS ALTA"]
-	},
-	{
-		"name": "flare.IBK",
-		"imports": ["flare.CHR", "flare.GAS", "flare.GPM", "flare.SAP", "flare.SAP"]
-	},
-	{
-		"name": "flare.ITB",
-		"imports": ["flare.MSG"]
-	},
-	{
-		"name": "flare.MAF",
-		"imports": ["flare.AUTOMAÇÃO"]
-	},
-	{
-		"name": "flare.MBK",
-		"imports": ["flare.BOLETOS", "flare.GPM", "flare.GPM"]
-	},
-	{
-		"name": "flare.MBK APP",
-		"imports": ["flare.MS API BRB"]
-	},
-	{
-		"name": "flare.MCP",
-		"imports": ["flare.BRS"]
-	},
-	{
-		"name": "flare.MGF",
-		"imports": ["flare.CTR"]
-	},
-	{
-		"name": "flare.MGM",
-		"imports": ["flare.MSG"]
-	},
-	{
-		"name": "flare.MYB",
-		"imports": ["flare.CLI", "flare.GPM", "flare.GPM"]
-	},
-	{
-		"name": "flare.PLC",
-		"imports": ["flare.SAP"]
-	},
-	{
-		"name": "flare.RCG",
-		"imports": ["flare.PIB", "flare.PIB"]
-	},
-	{
-		"name": "flare.REC",
-		"imports": ["flare.IPREV", "flare.IPREV", "flare.IPREV"]
-	},
-	{
-		"name": "flare.RMB",
-		"imports": ["flare.COH", "flare.CTR", "flare.DCC", "flare.POD", "flare.SAP", "flare.SAP"]
-	},
-	{
-		"name": "flare.SAF",
-		"imports": ["flare.DCC", "flare.DNC", "flare.SPL", "flare.SPL"]
-	},
-	{
-		"name": "flare.SBA",
-		"imports": ["flare.SGB"]
-	},
-	{
-		"name": "flare.SBE",
-		"imports": ["flare.CTR", "flare.DCB", "flare.DSC", "flare.EAC", "flare.ECC", "flare.FCG", "flare.OCA", "flare.OCG", "flare.SAP", "flare.SAP"]
-	},
-	{
-		"name": "flare.SEC",
-		"imports": ["flare.HCC"]
-	},
-	{
-		"name": "flare.SFC",
-		"imports": ["flare.CIP", "flare.MSG", "flare.SAP", "flare.SAP"]
-	},
-	{
-		"name": "flare.SGT-WEBSERVICE",
-		"imports": ["flare.SERIES TEMPORAIS(BACEN)", "flare.SERIES TEMPORAIS(BACEN)", "flare.SERIES TEMPORAIS(BACEN)"]
-	},
-	{
-		"name": "flare.SMB",
-		"imports": ["flare.MSG", "flare.MSG"]
-	},
-	{
-		"name": "flare.SMD",
-		"imports": ["flare.ACO", "flare.BLK", "flare.HRX", "flare.HRX"]
-	},
-	{
-		"name": "flare.SPL",
-		"imports": ["flare.ETL"]
-	},
-	{
-		"name": "flare.SRR",
-		"imports": ["flare.GCR", "flare.GCR", "flare.GCR"]
-	},
-	{
-		"name": "flare.SVA",
-		"imports": ["flare.BRS"]
-	},
-	{
-		"name": "flare.TTB",
-		"imports": ["flare.AUTOMAÇÃO", "flare.DCC", "flare.MSG", "flare.SPL", "flare.SPL"]
-	},
-	{
-		"name": "flare.VTD",
-		"imports": ["flare.FLEXDOC", "flare.FLEXDOC", "flare.FLEXDOC"]
-	}
+[ ["ABA","ABX",1]
+,["ABA","AUT",1]
+,["ABA","BLK",1]
+,["ABA","NPC",1]
+,["ABX","AUT",1]
+,["ABX","BLK",1]
+,["abx","BLK",1]
+,["ABX","DETRAN",1]
+,["ABX","MAS",1]
+,["ABX","NPC",1]
+,["ABX","SEFAZ",1]
+,["ABX","SMD",1]
+,["ACO","ABX",1]
+,["ACO","AOX",1]
+,["ACO","APS",1]
+,["ACO","BLK",1]
+,["ACO","MBK (EJB)",1]
+,["ACO","SGA",1]
+,["ACO","SMD",1]
+,["ACR","Brs-Propostas",1]
+,["ACR","Brs-Propostas",1]
+,["ACR","Brs-Propostas",1]
+,["ACR","GCR",1]
+,["ACR","GCR",1]
+,["ACR","GCR",1]
+,["APB","ABX",1]
+,["APB","AOX",1]
+,["APB","AUT",1]
+,["APB","BLK",1]
+,["APB","HRX",1]
+,["APB","MPS",1]
+,["APB","MSG",1]
+,["ATB","ABX",1]
+,["ATB","APB",1]
+,["ATB","BLK",1]
+,["ATB","NPC",1]
+,["ATC","ABX",1]
+,["ATC","APB",1]
+,["ATC","BLK",1]
+,["ATC","NPC",1]
+,["AUB","AD",1]
+,["AUB","BLK",1]
+,["AUB","GPM",1]
+,["BCJ","AOX",1]
+,["BCJ","APA",1]
+,["BCJ","AUT",1]
+,["BCJ","CTU",1]
+,["BCJ","DCC",1]
+,["BCJ","FCB",1]
+,["BCJ","FFA",1]
+,["BIO","Automação",1]
+,["BLK","ABX",1]
+,["BLK","ACO",1]
+,["BLK","APB",1]
+,["BLK","APB - REST",1]
+,["BLK","AUT",1]
+,["BLK","BRB CARD",1]
+,["BLK","BRS",1]
+,["BLK","CBR GW",1]
+,["BLK","CCL",1]
+,["BLK","CHR",1]
+,["BLK","DATAPREV (NAI)",1]
+,["BLK","DETRAN",1]
+,["BLK","FRM",1]
+,["BLK","GPM",1]
+,["BLK","GTE",1]
+,["BLK","IBK (EJB)",1]
+,["BLK","INFOCONV",1]
+,["BLK","MBK (EJB)",1]
+,["BLK","MCP",1]
+,["BLK","NPC",1]
+,["BLK","SAB",1]
+,["BLK","SBA",1]
+,["BLK","SBE",1]
+,["BLK","SEFAZ",1]
+,["BLK","SEGUROS BRB",1]
+,["BLK","SMD",1]
+,["BLK","SPI",1]
+,["BNR","CMS",1]
+,["BNR","ODS",1]
+,["CBR","ABX",1]
+,["CBR","AOM",1]
+,["CBR","AOX",1]
+,["CBR","APS",1]
+,["CBR","AUT",1]
+,["CBR","CWS",1]
+,["CBR","DCB",1]
+,["CBR","ECB",1]
+,["CBR","GCR",1]
+,["CBR","GPW",1]
+,["CBR","ODS",1]
+,["CBR","PRO",1]
+,["CCR","ARR",1]
+,["CCR","EIS",1]
+,["CHR","BLK",1]
+,["CHR","IBK (EJB)",1]
+,["CIX","AD",1]
+,["CIX","BLK",1]
+,["CIX","GPM",1]
+,["CJU","CTR",1]
+,["CJU","SAP",1]
+,["CJU","SPL",1]
+,["CLI","BLK",1]
+,["CLI","BRS",1]
+,["CLI","SAV",1]
+,["CMB","Automação",1]
+,["CMB","SPL",1]
+,["CNB","AOD",1]
+,["CNB","ATB",1]
+,["CNB","CMS",1]
+,["CNB","SGA",1]
+,["COH","AOX",1]
+,["COH","CCT",1]
+,["COH","DCC",1]
+,["CPG","CTR",1]
+,["CPG","DCC",1]
+,["CPG","SAP",1]
+,["CRK","AOX",1]
+,["CRK","Automação",1]
+,["CRK","BLK",1]
+,["CRK","DCC",1]
+,["CRK","SPL",1]
+,["CSS","AOX",1]
+,["CSS","AOX",1]
+,["CSS","AOX",1]
+,["CSS","AOX",1]
+,["CSS","AOX",1]
+,["CSS","AOX",1]
+,["CSS","SERASA",1]
+,["CSS","SERASA",1]
+,["CSS","SERASA",1]
+,["DFC","ABX",1]
+,["DFC","DCT",1]
+,["EIS","AUT",1]
+,["EIS","ETL",1]
+,["EIS","ZABBIX",1]
+,["FDF","Brs-Clientes",1]
+,["FDF","Brs-Clientes",1]
+,["FDF","Brs-Clientes",1]
+,["FDF","Brs-Funcionarios",1]
+,["FDF","Brs-Funcionarios",1]
+,["FDF","Brs-Funcionarios",1]
+,["FDF","Brs-Indices",1]
+,["FDF","Brs-Indices",1]
+,["FDF","Brs-Indices",1]
+,["FDF","Brs-Investimentos",1]
+,["FDF","Brs-Investimentos",1]
+,["FDF","Brs-Investimentos",1]
+,["FDI","CNR",1]
+,["FDI","CRS",1]
+,["FDI","DCC",1]
+,["FLEX","CNR",1]
+,["FLEX","CRS",1]
+,["FLEX","DCC",1]
+,["GAT","Cadastro (MS)",1]
+,["GBW","Automação",1]
+,["GPI","BLK",1]
+,["GPI","SPI",1]
+,["GPW","ABX",1]
+,["GPW","AOX",1]
+,["GPW","APA",1]
+,["GPW","BKT",1]
+,["GPW","CCD",1]
+,["GPW","CCT",1]
+,["GPW","COC",1]
+,["GPW","DCC",1]
+,["GPW","ETL",1]
+,["GPW","FCG",1]
+,["GPW","GCR",1]
+,["GPW","GRQ",1]
+,["GPW","HCT",1]
+,["GRO NOVO","BRS",1]
+,["GRO NOVO","SAP",1]
+,["GRW","BKT",1]
+,["GTE","AUT",1]
+,["GTE","CBR",1]
+,["GTE","DCB",1]
+,["GTE","MSG",1]
+,["GTE","NPC",1]
+,["HMD","HRX",1]
+,["HMD","SGA",1]
+,["HRX","ABX",1]
+,["HRX","BB",1]
+,["HRX","BLK",1]
+,["HRX","BRB CARD",1]
+,["HRX","MASTERCARD",1]
+,["HRX","PERTO",1]
+,["HRX","TECBAN",1]
+,["HRX","VISA",1]
+,["HRX HOST","Vários Sistemas ALTA",1]
+,["IBK","BLK",1]
+,["IBK","CHR",1]
+,["IBK","GAS",1]
+,["IBK","GPM",1]
+,["IBK","SAP",1]
+,["ITB","MSG",1]
+,["MAF","Automação",1]
+,["MBK","BLK",1]
+,["MBK","BOLETOS",1]
+,["MBK","GPM",1]
+,["MBK APP","MS API BRB",1]
+,["MCP","BRS",1]
+,["MGF","CTR",1]
+,["MGM","MSG",1]
+,["MSG","ACR",1]
+,["MSG","APB",1]
+,["MSG","BCB",1]
+,["MSG","BKN",1]
+,["MSG","BMF&BOVESPA",1]
+,["MSG","CBLC",1]
+,["MSG","CCD",1]
+,["MSG","CDA",1]
+,["MSG","CDG",1]
+,["MSG","CEN",1]
+,["MSG","CETIP",1]
+,["MSG","CIP",1]
+,["MSG","CNR",1]
+,["MSG","CPS",1]
+,["MSG","CRS",1]
+,["MSG","CTC",1]
+,["MSG","CWS",1]
+,["MSG","DCA",1]
+,["MSG","DCB",1]
+,["MSG","DCT",1]
+,["MSG","DNC",1]
+,["MSG","EVO",1]
+,["MSG","FAP",1]
+,["MSG","FCB",1]
+,["MSG","FCF",1]
+,["MSG","FCG",1]
+,["MSG","FCI",1]
+,["MSG","GPW",1]
+,["MSG","GTE",1]
+,["MSG","HDC",1]
+,["MSG","ITB",1]
+,["MSG","MCM (SADSXP)",1]
+,["MSG","MGM",1]
+,["MSG","MPD",1]
+,["MSG","OCG",1]
+,["MSG","PBI",1]
+,["MSG","SAC",1]
+,["MSG","SELIC",1]
+,["MSG","SFC (MQ)",1]
+,["MSG","SRR",1]
+,["MSG","STN",1]
+,["MSG","TTB",1]
+,["MSG","VRB",1]
+,["MSG","VSN",1]
+,["MYB","BLK",1]
+,["MYB","CLI",1]
+,["MYB","GPM",1]
+,["PLC","SAP",1]
+,["RCG","IEC",1]
+,["RCG","PIB",1]
+,["REC","IPREV",1]
+,["REC","IPREV",1]
+,["REC","IPREV",1]
+,["RMB","AUT",1]
+,["RMB","COH",1]
+,["RMB","CTR",1]
+,["RMB","DCC",1]
+,["RMB","POD",1]
+,["RMB","SAP",1]
+,["SAF","CTR",1]
+,["SAF","DCC",1]
+,["SAF","DNC",1]
+,["SAF","SPL",1]
+,["SBA","SGB",1]
+,["SBE","CCD ",1]
+,["SBE","CTR ",1]
+,["SBE","DCB ",1]
+,["SBE","DSC ",1]
+,["SBE","EAC ",1]
+,["SBE","ECC ",1]
+,["SBE","FCG ",1]
+,["SBE","OCA ",1]
+,["SBE","OCG ",1]
+,["SBE","SAP",1]
+,["SCD","AOX",1]
+,["SCD","AOX",1]
+,["SCD","AOX",1]
+,["SCD","Brs-Clientes",1]
+,["SCD","Brs-Clientes",1]
+,["SCD","Brs-Clientes",1]
+,["SCD","Brs-Funcionarios",1]
+,["SCD","Brs-Funcionarios",1]
+,["SCD","Brs-Funcionarios",1]
+,["SCD","Brs-Indices",1]
+,["SCD","Brs-Indices",1]
+,["SCD","Brs-Indices",1]
+,["SCD","Brs-Produtos",1]
+,["SCD","Brs-Produtos",1]
+,["SCD","Brs-Produtos",1]
+,["SCD","Brs-Propostas",1]
+,["SCD","Brs-Propostas",1]
+,["SCD","Brs-Propostas",1]
+,["SCD","CTR",1]
+,["SCD","CTR",1]
+,["SCD","CTR",1]
+,["SCD","DCC",1]
+,["SCD","DCC",1]
+,["SCD","DCC",1]
+,["SCD","GCR",1]
+,["SCD","GCR",1]
+,["SCD","GCR",1]
+,["SCI","AOX",1]
+,["SCI","AOX",1]
+,["SCI","CIN",1]
+,["SCI","COH",1]
+,["SCI","CONSIST (SERPRO)",1]
+,["SCI","CTC",1]
+,["SCI","CTC",1]
+,["SCI","CTC",1]
+,["SCI","CTU",1]
+,["SCI","DCB",1]
+,["SCI","DDA (CIP)",1]
+,["SCI","DNA (CIP)",1]
+,["SCI","DNC",1]
+,["SCI","DPJ",1]
+,["SCI","INFOCONV",1]
+,["SCI","PCS (CIP)",1]
+,["SCI","POB",1]
+,["SCI","SAP",1]
+,["SCI","SCG (CIP)",1]
+,["SCI","SCR (BACEN)",1]
+,["SCI","SERASA",1]
+,["SCI","SILOC (CIP)",1]
+,["SCI","SLC (CIP)",1]
+,["SCI","STD (CIP)",1]
+,["SCI","TTB",1]
+,["SCI","VSN",1]
+,["SEC","HCC",1]
+,["SFC","AOM",1]
+,["SFC","CIP",1]
+,["SFC","MSG",1]
+,["SFC","SAP",1]
+,["SGT","Brs-Clientes",1]
+,["SGT","Brs-Clientes",1]
+,["SGT","Brs-Clientes",1]
+,["SGT","Brs-Funcionarios",1]
+,["SGT","Brs-Funcionarios",1]
+,["SGT","Brs-Funcionarios",1]
+,["SGT","Brs-Indices",1]
+,["SGT","Brs-Indices",1]
+,["SGT","Brs-Indices",1]
+,["SGT","Brs-Propostas",1]
+,["SGT","Brs-Propostas",1]
+,["SGT","Brs-Propostas",1]
+,["SGT","GCR",1]
+,["SGT","GCR",1]
+,["SGT","GCR",1]
+,["SGT","POD",1]
+,["SGT","POD",1]
+,["SGT","POD",1]
+,["SGT-WebService","Series Temporais(Bacen)",1]
+,["SGT-WebService","Series Temporais(Bacen)",1]
+,["SGT-WebService","Series Temporais(Bacen)",1]
+,["SMB","MSG",1]
+,["SMD","ABX",1]
+,["SMD","ACO",1]
+,["SMD","BLK",1]
+,["SMD","HRX",1]
+,["SPL","ETL",1]
+,["SRR","GCR",1]
+,["SRR","GCR",1]
+,["SRR","GCR",1]
+,["SVA","BRS",1]
+,["TTB","AOX",1]
+,["TTB","Automação",1]
+,["TTB","DCC",1]
+,["TTB","MSG",1]
+,["TTB","SPL",1]
+,["VTD","FlexDOC",1]
+,["VTD","FlexDOC",1]
+,["VTD","FlexDOC",1]
 ]
