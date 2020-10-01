@@ -1,376 +1,387 @@
-[ ["ABA","ABX","TESTE"]
-,["ABA","AUT","TESTE"]
-,["ABA","BLK","TESTE"]
-,["ABA","NPC","TESTE"]
-,["ABX","AUT","BRB"]
-,["ABX","BLK","BRB"]
-,["abx","BLK","BRB"]
-,["ABX","DETRAN","BRB"]
-,["ABX","MAS","BRB"]
-,["ABX","NPC","BRB"]
-,["ABX","SEFAZ","BRB"]
-,["ABX","SMD","BRB"]
-,["ACO","ABX","BRB"]
-,["ACO","AOX","BRB"]
-,["ACO","APS","BRB"]
-,["ACO","BLK","BRB"]
-,["ACO","MBK (EJB)","BRB"]
-,["ACO","SGA","BRB"]
-,["ACO","SMD","BRB"]
-,["ACR","Brs-Propostas","BRB"]
-,["ACR","Brs-Propostas","BRB"]
-,["ACR","Brs-Propostas","BRB"]
-,["ACR","GCR","BRB"]
-,["ACR","GCR","BRB"]
-,["ACR","GCR","BRB"]
-,["APB","ABX","BRB"]
-,["APB","AOX","BRB"]
-,["APB","AUT","BRB"]
-,["APB","BLK","BRB"]
-,["APB","HRX","BRB"]
-,["APB","MPS","BRB"]
-,["APB","MSG","BRB"]
-,["ATB","ABX","BRB"]
-,["ATB","APB","BRB"]
-,["ATB","BLK","BRB"]
-,["ATB","NPC","BRB"]
-,["ATC","ABX","BRB"]
-,["ATC","APB","BRB"]
-,["ATC","BLK","BRB"]
-,["ATC","NPC","BRB"]
-,["AUB","AD","BRB"]
-,["AUB","BLK","BRB"]
-,["AUB","GPM","BRB"]
-,["BCJ","AOX","BRB"]
-,["BCJ","APA","BRB"]
-,["BCJ","AUT","BRB"]
-,["BCJ","CTU","BRB"]
-,["BCJ","DCC","BRB"]
-,["BCJ","FCB","BRB"]
-,["BCJ","FFA","BRB"]
-,["BIO","Automação","BRB"]
-,["BLK","ABX","BRB"]
-,["BLK","ACO","BRB"]
-,["BLK","APB","BRB"]
-,["BLK","APB - REST","BRB"]
-,["BLK","AUT","BRB"]
-,["BLK","BRB CARD","BRB"]
-,["BLK","BRS","BRB"]
-,["BLK","CBR GW","BRB"]
-,["BLK","CCL","BRB"]
-,["BLK","CHR","BRB"]
-,["BLK","DATAPREV (NAI)","BRB"]
-,["BLK","DETRAN","BRB"]
-,["BLK","FRM","BRB"]
-,["BLK","GPM","BRB"]
-,["BLK","GTE","BRB"]
-,["BLK","IBK (EJB)","BRB"]
-,["BLK","INFOCONV","BRB"]
-,["BLK","MBK (EJB)","BRB"]
-,["BLK","MCP","BRB"]
-,["BLK","NPC","BRB"]
-,["BLK","SAB","BRB"]
-,["BLK","SBA","BRB"]
-,["BLK","SBE","BRB"]
-,["BLK","SEFAZ","BRB"]
-,["BLK","SEGUROS BRB","BRB"]
-,["BLK","SMD","BRB"]
-,["BLK","SPI","BRB"]
-,["BNR","CMS","BRB"]
-,["BNR","ODS","BRB"]
-,["CBR","ABX","BRB"]
-,["CBR","AOM","BRB"]
-,["CBR","AOX","BRB"]
-,["CBR","APS","BRB"]
-,["CBR","AUT","BRB"]
-,["CBR","CWS","BRB"]
-,["CBR","DCB","BRB"]
-,["CBR","ECB","BRB"]
-,["CBR","GCR","BRB"]
-,["CBR","GPW","BRB"]
-,["CBR","ODS","BRB"]
-,["CBR","PRO","BRB"]
-,["CCR","ARR","BRB"]
-,["CCR","EIS","BRB"]
-,["CHR","BLK","BRB"]
-,["CHR","IBK (EJB)","BRB"]
-,["CIX","AD","BRB"]
-,["CIX","BLK","BRB"]
-,["CIX","GPM","BRB"]
-,["CJU","CTR","BRB"]
-,["CJU","SAP","BRB"]
-,["CJU","SPL","BRB"]
-,["CLI","BLK","BRB"]
-,["CLI","BRS","BRB"]
-,["CLI","SAV","BRB"]
-,["CMB","Automação","BRB"]
-,["CMB","SPL","BRB"]
-,["CNB","AOD","BRB"]
-,["CNB","ATB","BRB"]
-,["CNB","CMS","BRB"]
-,["CNB","SGA","BRB"]
-,["COH","AOX","BRB"]
-,["COH","CCT","BRB"]
-,["COH","DCC","BRB"]
-,["CPG","CTR","BRB"]
-,["CPG","DCC","BRB"]
-,["CPG","SAP","BRB"]
-,["CRK","AOX","BRB"]
-,["CRK","Automação","BRB"]
-,["CRK","BLK","BRB"]
-,["CRK","DCC","BRB"]
-,["CRK","SPL","BRB"]
-,["CSS","AOX","BRB"]
-,["CSS","AOX","BRB"]
-,["CSS","AOX","BRB"]
-,["CSS","AOX","BRB"]
-,["CSS","AOX","BRB"]
-,["CSS","AOX","BRB"]
-,["CSS","SERASA","BRB"]
-,["CSS","SERASA","BRB"]
-,["CSS","SERASA","BRB"]
-,["DFC","ABX","BRB"]
-,["DFC","DCT","BRB"]
-,["EIS","AUT","BRB"]
-,["EIS","ETL","BRB"]
-,["EIS","ZABBIX","BRB"]
-,["FDF","Brs-Clientes","BRB"]
-,["FDF","Brs-Clientes","BRB"]
-,["FDF","Brs-Clientes","BRB"]
-,["FDF","Brs-Funcionarios","BRB"]
-,["FDF","Brs-Funcionarios","BRB"]
-,["FDF","Brs-Funcionarios","BRB"]
-,["FDF","Brs-Indices","BRB"]
-,["FDF","Brs-Indices","BRB"]
-,["FDF","Brs-Indices","BRB"]
-,["FDF","Brs-Investimentos","BRB"]
-,["FDF","Brs-Investimentos","BRB"]
-,["FDF","Brs-Investimentos","BRB"]
-,["FDI","CNR","BRB"]
-,["FDI","CRS","BRB"]
-,["FDI","DCC","BRB"]
-,["FLEX","CNR","BRB"]
-,["FLEX","CRS","BRB"]
-,["FLEX","DCC","BRB"]
-,["GAT","Cadastro (MS)","BRB"]
-,["GBW","Automação","BRB"]
-,["GPI","BLK","BRB"]
-,["GPI","SPI","BRB"]
-,["GPW","ABX","BRB"]
-,["GPW","AOX","BRB"]
-,["GPW","APA","BRB"]
-,["GPW","BKT","BRB"]
-,["GPW","CCD","BRB"]
-,["GPW","CCT","BRB"]
-,["GPW","COC","BRB"]
-,["GPW","DCC","BRB"]
-,["GPW","ETL","BRB"]
-,["GPW","FCG","BRB"]
-,["GPW","GCR","BRB"]
-,["GPW","GRQ","BRB"]
-,["GPW","HCT","BRB"]
-,["GRO NOVO","BRS","BRB"]
-,["GRO NOVO","SAP","BRB"]
-,["GRW","BKT","BRB"]
-,["GTE","AUT","BRB"]
-,["GTE","CBR","BRB"]
-,["GTE","DCB","BRB"]
-,["GTE","MSG","BRB"]
-,["GTE","NPC","BRB"]
-,["HMD","HRX","BRB"]
-,["HMD","SGA","BRB"]
-,["HRX","ABX","BRB"]
-,["HRX","BB","BRB"]
-,["HRX","BLK","BRB"]
-,["HRX","BRB CARD","BRB"]
-,["HRX","MASTERCARD","BRB"]
-,["HRX","PERTO","BRB"]
-,["HRX","TECBAN","BRB"]
-,["HRX","VISA","BRB"]
-,["HRX HOST","Vários Sistemas ALTA","BRB"]
-,["IBK","BLK","BRB"]
-,["IBK","CHR","BRB"]
-,["IBK","GAS","BRB"]
-,["IBK","GPM","BRB"]
-,["IBK","SAP","BRB"]
-,["ITB","MSG","BRB"]
-,["MAF","Automação","BRB"]
-,["MBK","BLK","BRB"]
-,["MBK","BOLETOS","BRB"]
-,["MBK","GPM","BRB"]
-,["MBK APP","MS API BRB","BRB"]
-,["MCP","BRS","BRB"]
-,["MGF","CTR","BRB"]
-,["MGM","MSG","BRB"]
-,["MSG","ACR","BRB"]
-,["MSG","APB","BRB"]
-,["MSG","BCB","BRB"]
-,["MSG","BKN","BRB"]
-,["MSG","BMF&BOVESPA","BRB"]
-,["MSG","CBLC","BRB"]
-,["MSG","CCD","BRB"]
-,["MSG","CDA","BRB"]
-,["MSG","CDG","BRB"]
-,["MSG","CEN","BRB"]
-,["MSG","CETIP","BRB"]
-,["MSG","CIP","BRB"]
-,["MSG","CNR","BRB"]
-,["MSG","CPS","BRB"]
-,["MSG","CRS","BRB"]
-,["MSG","CTC","BRB"]
-,["MSG","CWS","BRB"]
-,["MSG","DCA","BRB"]
-,["MSG","DCB","BRB"]
-,["MSG","DCT","BRB"]
-,["MSG","DNC","BRB"]
-,["MSG","EVO","BRB"]
-,["MSG","FAP","BRB"]
-,["MSG","FCB","BRB"]
-,["MSG","FCF","BRB"]
-,["MSG","FCG","BRB"]
-,["MSG","FCI","BRB"]
-,["MSG","GPW","BRB"]
-,["MSG","GTE","BRB"]
-,["MSG","HDC","BRB"]
-,["MSG","ITB","BRB"]
-,["MSG","MCM (SADSXP)","BRB"]
-,["MSG","MGM","BRB"]
-,["MSG","MPD","BRB"]
-,["MSG","OCG","BRB"]
-,["MSG","PBI","BRB"]
-,["MSG","SAC","BRB"]
-,["MSG","SELIC","BRB"]
-,["MSG","SFC (MQ)","BRB"]
-,["MSG","SRR","BRB"]
-,["MSG","STN","BRB"]
-,["MSG","TTB","BRB"]
-,["MSG","VRB","BRB"]
-,["MSG","VSN","BRB"]
-,["MYB","BLK","BRB"]
-,["MYB","CLI","BRB"]
-,["MYB","GPM","BRB"]
-,["PLC","SAP","BRB"]
-,["RCG","IEC","BRB"]
-,["RCG","PIB","BRB"]
-,["REC","IPREV","BRB"]
-,["REC","IPREV","BRB"]
-,["REC","IPREV","BRB"]
-,["RMB","AUT","BRB"]
-,["RMB","COH","BRB"]
-,["RMB","CTR","BRB"]
-,["RMB","DCC","BRB"]
-,["RMB","POD","BRB"]
-,["RMB","SAP","BRB"]
-,["SAF","CTR","BRB"]
-,["SAF","DCC","BRB"]
-,["SAF","DNC","BRB"]
-,["SAF","SPL","BRB"]
-,["SBA","SGB","BRB"]
-,["SBE","CCD ","BRB"]
-,["SBE","CTR ","BRB"]
-,["SBE","DCB ","BRB"]
-,["SBE","DSC ","BRB"]
-,["SBE","EAC ","BRB"]
-,["SBE","ECC ","BRB"]
-,["SBE","FCG ","BRB"]
-,["SBE","OCA ","BRB"]
-,["SBE","OCG ","BRB"]
-,["SBE","SAP","BRB"]
-,["SCD","AOX","BRB"]
-,["SCD","AOX","BRB"]
-,["SCD","AOX","BRB"]
-,["SCD","Brs-Clientes","BRB"]
-,["SCD","Brs-Clientes","BRB"]
-,["SCD","Brs-Clientes","BRB"]
-,["SCD","Brs-Funcionarios","BRB"]
-,["SCD","Brs-Funcionarios","BRB"]
-,["SCD","Brs-Funcionarios","BRB"]
-,["SCD","Brs-Indices","BRB"]
-,["SCD","Brs-Indices","BRB"]
-,["SCD","Brs-Indices","BRB"]
-,["SCD","Brs-Produtos","BRB"]
-,["SCD","Brs-Produtos","BRB"]
-,["SCD","Brs-Produtos","BRB"]
-,["SCD","Brs-Propostas","BRB"]
-,["SCD","Brs-Propostas","BRB"]
-,["SCD","Brs-Propostas","BRB"]
-,["SCD","CTR","BRB"]
-,["SCD","CTR","BRB"]
-,["SCD","CTR","BRB"]
-,["SCD","DCC","BRB"]
-,["SCD","DCC","BRB"]
-,["SCD","DCC","BRB"]
-,["SCD","GCR","BRB"]
-,["SCD","GCR","BRB"]
-,["SCD","GCR","BRB"]
-,["SCI","AOX","BRB"]
-,["SCI","AOX","BRB"]
-,["SCI","CIN","BRB"]
-,["SCI","COH","BRB"]
-,["SCI","CONSIST (SERPRO)","BRB"]
-,["SCI","CTC","BRB"]
-,["SCI","CTC","BRB"]
-,["SCI","CTC","BRB"]
-,["SCI","CTU","BRB"]
-,["SCI","DCB","BRB"]
-,["SCI","DDA (CIP)","BRB"]
-,["SCI","DNA (CIP)","BRB"]
-,["SCI","DNC","BRB"]
-,["SCI","DPJ","BRB"]
-,["SCI","INFOCONV","BRB"]
-,["SCI","PCS (CIP)","BRB"]
-,["SCI","POB","BRB"]
-,["SCI","SAP","BRB"]
-,["SCI","SCG (CIP)","BRB"]
-,["SCI","SCR (BACEN)","BRB"]
-,["SCI","SERASA","BRB"]
-,["SCI","SILOC (CIP)","BRB"]
-,["SCI","SLC (CIP)","BRB"]
-,["SCI","STD (CIP)","BRB"]
-,["SCI","TTB","BRB"]
-,["SCI","VSN","BRB"]
-,["SEC","HCC","BRB"]
-,["SFC","AOM","BRB"]
-,["SFC","CIP","BRB"]
-,["SFC","MSG","BRB"]
-,["SFC","SAP","BRB"]
-,["SGT","Brs-Clientes","BRB"]
-,["SGT","Brs-Clientes","BRB"]
-,["SGT","Brs-Clientes","BRB"]
-,["SGT","Brs-Funcionarios","BRB"]
-,["SGT","Brs-Funcionarios","BRB"]
-,["SGT","Brs-Funcionarios","BRB"]
-,["SGT","Brs-Indices","BRB"]
-,["SGT","Brs-Indices","BRB"]
-,["SGT","Brs-Indices","BRB"]
-,["SGT","Brs-Propostas","BRB"]
-,["SGT","Brs-Propostas","BRB"]
-,["SGT","Brs-Propostas","BRB"]
-,["SGT","GCR","BRB"]
-,["SGT","GCR","BRB"]
-,["SGT","GCR","BRB"]
-,["SGT","POD","BRB"]
-,["SGT","POD","BRB"]
-,["SGT","POD","BRB"]
-,["SGT-WebService","Series Temporais(Bacen)","BRB"]
-,["SGT-WebService","Series Temporais(Bacen)","BRB"]
-,["SGT-WebService","Series Temporais(Bacen)","BRB"]
-,["SMB","MSG","BRB"]
-,["SMD","ABX","BRB"]
-,["SMD","ACO","BRB"]
-,["SMD","BLK","BRB"]
-,["SMD","HRX","BRB"]
-,["SPL","ETL","BRB"]
-,["SRR","GCR","BRB"]
-,["SRR","GCR","BRB"]
-,["SRR","GCR","BRB"]
-,["SVA","BRS","BRB"]
-,["TTB","AOX","BRB"]
-,["TTB","Automação","BRB"]
-,["TTB","DCC","BRB"]
-,["TTB","MSG","BRB"]
-,["TTB","SPL","BRB"]
-,["VTD","FlexDOC","BRB"]
-,["VTD","FlexDOC","BRB"]
-,["VTD","FlexDOC","BRB"]
+[
+  ["ABA","ABX",false],
+  ["ABA","AUT",false],
+  ["ABA","BLK",false],
+  ["ABA","NPC",false],
+  ["ABX","AUT",false],
+  ["ABX","BLK",false],
+  ["abx","BLK",false],
+  ["ABX","DETRAN",true],
+  ["ABX","MAS",false],
+  ["ABX","NPC",false],
+  ["ABX","SEFAZ",true],
+  ["ABX","SMD",false],
+  ["ACO","ABX",false],
+  ["ACO","AOX",false],
+  ["ACO","APS",false],
+  ["ACO","BLK",false],
+  ["ACO","MBK (EJB)",false],
+  ["ACO","SGA",false],
+  ["ACO","SMD",false],
+  ["ACR","Brs-Propostas",false],
+  ["ACR","Brs-Propostas",false],
+  ["ACR","Brs-Propostas",false],
+  ["ACR","GCR",false],
+  ["ACR","GCR",false],
+  ["ACR","GCR",false],
+  ["APB","ABX",false],
+  ["APB","AOX",false],
+  ["APB","AUT",false],
+  ["APB","BLK",false],
+  ["APB","HRX",false],
+  ["APB","MPS",false],
+  ["APB","MSG",false],
+  ["ATB","ABX",false],
+  ["ATB","APB",false],
+  ["ATB","BLK",false],
+  ["ATB","NPC",false],
+  ["ATC","ABX",false],
+  ["ATC","APB",false],
+  ["ATC","BLK",false],
+  ["ATC","NPC",false],
+  ["AUB","AD",false],
+  ["AUB","BLK",false],
+  ["AUB","GPM",false],
+  ["BCJ","AOX",true],
+  ["BCJ","APA",true],
+  ["BCJ","AUT",true],
+  ["BCJ","CTU",true],
+  ["BCJ","DCC",true],
+  ["BCJ","FCB",true],
+  ["BCJ","FFA",true],
+  ["BIO","Automação",true],
+  ["BLK","ABX",false],
+  ["BLK","ACO",false],
+  ["BLK","APB",false],
+  ["BLK","APB - REST",false],
+  ["BLK","AUT",false],
+  ["BLK","BRB CARD",true],
+  ["BLK","BRS",false],
+  ["BLK","CBR GW",false],
+  ["BLK","CCL",false],
+  ["BLK","CHR",false],
+  ["BLK","DATAPREV (NAI)",true],
+  ["BLK","DETRAN",true],
+  ["BLK","FRM",false],
+  ["BLK","GPM",false],
+  ["BLK","GTE",false],
+  ["BLK","IBK (EJB)",false],
+  ["BLK","INFOCONV",true],
+  ["BLK","MBK (EJB)",false],
+  ["BLK","MCP",false],
+  ["BLK","NPC",false],
+  ["BLK","SAB",false],
+  ["BLK","SBA",false],
+  ["BLK","SBE",false],
+  ["BLK","SEFAZ",true],
+  ["BLK","SEGUROS BRB",false],
+  ["BLK","SMD",false],
+  ["BLK","SPI",false],
+  ["BNR","CMS",true],
+  ["BNR","ODS",true],
+  ["CBR","ABX",false],
+  ["CBR","AOM",false],
+  ["CBR","AOX",false],
+  ["CBR","APS",false],
+  ["CBR","AUT",false],
+  ["CBR","CWS",false],
+  ["CBR","DCB",false],
+  ["CBR","ECB",false],
+  ["CBR","GCR",false],
+  ["CBR","GPW",false],
+  ["CBR","ODS",false],
+  ["CBR","PRO",false],
+  ["CCR","ARR",false],
+  ["CCR","EIS",false],
+  ["CHR","BLK",false],
+  ["CHR","IBK (EJB)",false],
+  ["CIX","AD",false],
+  ["CIX","BLK",false],
+  ["CIX","GPM",false],
+  ["CJU","CTR",true],
+  ["CJU","SAP",true],
+  ["CJU","SPL",true],
+  ["CLI","BLK",false],
+  ["CLI","BRS",false],
+  ["CLI","SAV",false],
+  ["CMB","Automação",true],
+  ["CMB","SPL",true],
+  ["CNB","AOD",false],
+  ["CNB","ATB",false],
+  ["CNB","CMS",false],
+  ["CNB","SGA",false],
+  ["COH","AOX",true],
+  ["COH","CCT",true],
+  ["COH","DCC",true],
+  ["CPG","CTR",true],
+  ["CPG","DCC",true],
+  ["CPG","SAP",true],
+  ["CRK","AOX",true],
+  ["CRK","Automação",true],
+  ["CRK","BLK",true],
+  ["CRK","DCC",true],
+  ["CRK","SPL",true],
+  ["CSS","AOX",false],
+  ["CSS","AOX",false],
+  ["CSS","AOX",false],
+  ["CSS","AOX",false],
+  ["CSS","AOX",false],
+  ["CSS","AOX",false],
+  ["CSS","SERASA",true],
+  ["CSS","SERASA",true],
+  ["CSS","SERASA",true],
+  ["DFC","ABX",false],
+  ["DFC","DCT",null],
+  ["DIG","BLK",false],
+  ["DIG","BOLETOS",false],
+  ["DIG","BRB CARD",true],
+  ["DIG","GPM",false],
+  ["DIG","MBK (EJB)",false],
+  ["EIS","AUT",false],
+  ["EIS","ETL",false],
+  ["EIS","ZABBIX",false],
+  ["FDF","Brs-Clientes",false],
+  ["FDF","Brs-Clientes",false],
+  ["FDF","Brs-Clientes",false],
+  ["FDF","Brs-Funcionarios",false],
+  ["FDF","Brs-Funcionarios",false],
+  ["FDF","Brs-Funcionarios",false],
+  ["FDF","Brs-Indices",false],
+  ["FDF","Brs-Indices",false],
+  ["FDF","Brs-Indices",false],
+  ["FDF","Brs-Investimentos",false],
+  ["FDF","Brs-Investimentos",false],
+  ["FDF","Brs-Investimentos",false],
+  ["FDI","CNR",true],
+  ["FDI","CRS",true],
+  ["FDI","DCC",true],
+  ["FLEX","CNR",true],
+  ["FLEX","CRS",true],
+  ["FLEX","DCC",true],
+  ["GAT","Cadastro (MS)",true],
+  ["GBW","Automação",true],
+  ["GPI","BLK",false],
+  ["GPI","SPI",true],
+  ["GPW","ABX",false],
+  ["GPW","AOX",false],
+  ["GPW","APA",false],
+  ["GPW","BKT",null],
+  ["GPW","CCD",false],
+  ["GPW","CCT",false],
+  ["GPW","COC",false],
+  ["GPW","DCC",false],
+  ["GPW","ETL",false],
+  ["GPW","FCG",false],
+  ["GPW","GCR",false],
+  ["GPW","GRQ",false],
+  ["GPW","HCT",false],
+  ["GRO NOVO","BRS",false],
+  ["GRO NOVO","SAP",false],
+  ["GTE","AUT",false],
+  ["GTE","CBR",false],
+  ["GTE","DCB",false],
+  ["GTE","MSG",false],
+  ["GTE","NPC",false],
+  ["HMD","HRX",false],
+  ["HMD","SGA",false],
+  ["HRX","ABX",false],
+  ["HRX","BB",true],
+  ["HRX","BLK",false],
+  ["HRX","BRB CARD",true],
+  ["HRX","MASTERCARD",true],
+  ["HRX","PERTO",true],
+  ["HRX","TECBAN",true],
+  ["HRX","VISA",true],
+  ["HRX HOST","Vários Sistemas ALTA",false],
+  ["IBK","BLK",false],
+  ["IBK","CHR",false],
+  ["IBK","GAS",true],
+  ["IBK","GPM",false],
+  ["IBK","SAP",true],
+  ["ITB","MSG",false],
+  ["MAF","Automação",false],
+  ["MBK","BLK",false],
+  ["MBK","BOLETOS",false],
+  ["MBK","GPM",false],
+  ["MBK APP","MS API BRB",false],
+  ["MCP","BRS",false],
+  ["MGF","CTR",true],
+  ["MGM","MSG",false],
+  ["MSG","ACR",false],
+  ["MSG","APB",false],
+  ["MSG","BCB",true],
+  ["MSG","BKN",false],
+  ["MSG","BMF&BOVESPA",true],
+  ["MSG","CBLC",true],
+  ["MSG","CCD",false],
+  ["MSG","CDA",false],
+  ["MSG","CDG",false],
+  ["MSG","CEN",false],
+  ["MSG","CETIP",true],
+  ["MSG","CIP",false],
+  ["MSG","CNR",false],
+  ["MSG","CPS",false],
+  ["MSG","CRS",false],
+  ["MSG","CTC",false],
+  ["MSG","CWS",false],
+  ["MSG","DCA",false],
+  ["MSG","DCB",false],
+  ["MSG","DCT",false],
+  ["MSG","DNC",false],
+  ["MSG","EVO",false],
+  ["MSG","FAP",false],
+  ["MSG","FCB",false],
+  ["MSG","FCF",false],
+  ["MSG","FCG",false],
+  ["MSG","FCI",false],
+  ["MSG","GPW",false],
+  ["MSG","GTE",false],
+  ["MSG","HDC",false],
+  ["MSG","ITB",false],
+  ["MSG","MCM (SADSXP)",false],
+  ["MSG","MGM",false],
+  ["MSG","MPD",false],
+  ["MSG","OCG",false],
+  ["MSG","PBI",false],
+  ["MSG","SAC",false],
+  ["MSG","SELIC",true],
+  ["MSG","SFC (MQ)",false],
+  ["MSG","SRR",false],
+  ["MSG","STN",true],
+  ["MSG","TTB",false],
+  ["MSG","VRB",false],
+  ["MSG","VSN",false],
+  ["MYB","BLK",false],
+  ["MYB","CLI",false],
+  ["MYB","GPM",false],
+  ["NPC","BRB CARD",true],
+  ["NPC","DCB",false],
+  ["NPC","GTE",false],
+  ["NPC","HSM",false],
+  ["PLC","SAP",false],
+  ["PRJ","ABX",false],
+  ["PRJ","HRX",false],
+  ["RCG","IEC",false],
+  ["RCG","PIB",false],
+  ["REC","IPREV",true],
+  ["REC","IPREV",true],
+  ["REC","IPREV",true],
+  ["RMB","AUT",true],
+  ["RMB","COH",true],
+  ["RMB","CTR",true],
+  ["RMB","DCC",true],
+  ["RMB","POD",true],
+  ["RMB","SAP",true],
+  ["SAF","CTR",true],
+  ["SAF","DCC",true],
+  ["SAF","DNC",true],
+  ["SAF","SPL",true],
+  ["SBA","SGB",true],
+  ["SBE","CCD ",false],
+  ["SBE","CTR ",false],
+  ["SBE","DCB ",false],
+  ["SBE","DSC ",false],
+  ["SBE","EAC ",false],
+  ["SBE","ECC ",false],
+  ["SBE","FCG ",false],
+  ["SBE","OCA ",false],
+  ["SBE","OCG ",false],
+  ["SBE","SAP",false],
+  ["SCD","AOX",false],
+  ["SCD","AOX",false],
+  ["SCD","AOX",false],
+  ["SCD","Brs-Clientes",false],
+  ["SCD","Brs-Clientes",false],
+  ["SCD","Brs-Clientes",false],
+  ["SCD","Brs-Funcionarios",false],
+  ["SCD","Brs-Funcionarios",false],
+  ["SCD","Brs-Funcionarios",false],
+  ["SCD","Brs-Indices",false],
+  ["SCD","Brs-Indices",false],
+  ["SCD","Brs-Indices",false],
+  ["SCD","Brs-Produtos",false],
+  ["SCD","Brs-Produtos",false],
+  ["SCD","Brs-Produtos",false],
+  ["SCD","Brs-Propostas",false],
+  ["SCD","Brs-Propostas",false],
+  ["SCD","Brs-Propostas",false],
+  ["SCD","CTR",false],
+  ["SCD","CTR",false],
+  ["SCD","CTR",false],
+  ["SCD","DCC",false],
+  ["SCD","DCC",false],
+  ["SCD","DCC",false],
+  ["SCD","GCR",false],
+  ["SCD","GCR",false],
+  ["SCD","GCR",false],
+  ["SCI","AOX",false],
+  ["SCI","AOX",false],
+  ["SCI","CIN",false],
+  ["SCI","COH",false],
+  ["SCI","CONSIST (SERPRO)",true],
+  ["SCI","CTC",false],
+  ["SCI","CTC",false],
+  ["SCI","CTC",true],
+  ["SCI","CTU",false],
+  ["SCI","DCB",false],
+  ["SCI","DDA (CIP)",true],
+  ["SCI","DNA (CIP)",true],
+  ["SCI","DNC",false],
+  ["SCI","DPJ",false],
+  ["SCI","INFOCONV",true],
+  ["SCI","PCS (CIP)",true],
+  ["SCI","POB",false],
+  ["SCI","SAP",false],
+  ["SCI","SCG (CIP)",true],
+  ["SCI","SCR (BACEN)",true],
+  ["SCI","SERASA",true],
+  ["SCI","SILOC (CIP)",true],
+  ["SCI","SLC (CIP)",true],
+  ["SCI","STD (CIP)",true],
+  ["SCI","TTB",false],
+  ["SCI","VSN",false],
+  ["SEC","HCC",true],
+  ["SFC","AOM",false],
+  ["SFC","CIP",false],
+  ["SFC","MSG",false],
+  ["SFC","SAP",false],
+  ["SGT","Brs-Clientes",false],
+  ["SGT","Brs-Clientes",false],
+  ["SGT","Brs-Clientes",false],
+  ["SGT","Brs-Funcionarios",false],
+  ["SGT","Brs-Funcionarios",false],
+  ["SGT","Brs-Funcionarios",false],
+  ["SGT","Brs-Indices",false],
+  ["SGT","Brs-Indices",false],
+  ["SGT","Brs-Indices",false],
+  ["SGT","Brs-Propostas",false],
+  ["SGT","Brs-Propostas",false],
+  ["SGT","Brs-Propostas",false],
+  ["SGT","GCR",false],
+  ["SGT","GCR",false],
+  ["SGT","GCR",false],
+  ["SGT","POD",false],
+  ["SGT","POD",false],
+  ["SGT","POD",false],
+  ["SGT-WebService","Series Temporais(Bacen)",true],
+  ["SGT-WebService","Series Temporais(Bacen)",true],
+  ["SGT-WebService","Series Temporais(Bacen)",true],
+  ["SMB","MSG",false],
+  ["SMD","ABX",false],
+  ["SMD","ACO",false],
+  ["SMD","BLK",false],
+  ["SMD","HRX",false],
+  ["SPL","ETL",true],
+  ["SRR","GCR",false],
+  ["SRR","GCR",false],
+  ["SRR","GCR",false],
+  ["SVA","BRS",false],
+  ["TTB","AOX",true],
+  ["TTB","Automação",true],
+  ["TTB","DCC",true],
+  ["TTB","MSG",true],
+  ["TTB","SPL",true],
+  ["VTD","FlexDOC",true],
+  ["VTD","FlexDOC",true],
+  ["VTD","FlexDOC",true]
 ]

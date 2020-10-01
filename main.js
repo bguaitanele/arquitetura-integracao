@@ -23,7 +23,7 @@ var node,
 
 function convert(data){
     const output = {};
-    data.forEach( ([sistemaA,sistemaB]) => {
+    data.forEach( ([sistemaA,sistemaB,externo]) => {
        if( !(sistemaA.toUpperCase() in output) ){
            output[sistemaA.toUpperCase()] = {name: `flare.${sistemaA}`, imports: []}
        }
@@ -48,7 +48,7 @@ function writeTable(data){
         })
         dados.push( obj );
     });
-    dados = _.orderBy( dados, 'integracoes', 'desc');
+    dados = _.orderBy( dados, 'origem', 'desc');
 
     dados.forEach( ({nome,origem,destino}) => {
         $( `<tr><td>${nome}</td><td>${origem}</td><td>${destino}</td></tr>`).appendTo(tabela);
