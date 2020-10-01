@@ -22,25 +22,37 @@ var node,
     link;
 
 function convert(data){
-    //entrada [A,B,1]
-    /**
-     * saida
-     * {
-            "name": "ACR",
-            "imports": ["GCR","GCR"]
-        }
-     */
     const output = {};
     data.forEach( ([sistemaA,sistemaB]) => {
-       if( !(sistemaA in output) ){
-           output[sistemaA] = {name: `flare.${sistemaA}`, imports: []}
+       if( !(sistemaA.toUpperCase() in output) ){
+           output[sistemaA.toUpperCase()] = {name: `flare.${sistemaA}`, imports: []}
        }
         if( !(sistemaB in output) ){
-            output[sistemaB] = {name: `flare.${sistemaB}`, imports: []}
+            output[sistemaB.toUpperCase()] = {name: `flare.${sistemaB}`, imports: []}
         }
-        output[sistemaA].imports.push(`flare.${sistemaB}`);
+        output[sistemaA.toUpperCase()].imports.push(`flare.${sistemaB}`);
     });
     return Object.values(output);
+
+
+}
+
+function writeTable(data){
+    const tabela = $("#valores");
+    let dados = [];
+    data.forEach( ({name,imports}) => {
+        // if(!imports.length) return;
+        const obj = {nome: name.replace('flare.',''), origem: imports.length, destino: 0};
+        data.forEach( itens => {
+            itens.imports.forEach( b => b === name && obj.destino++ );
+        })
+        dados.push( obj );
+    });
+    dados = _.orderBy( dados, 'integracoes', 'desc');
+
+    dados.forEach( ({nome,origem,destino}) => {
+        $( `<tr><td>${nome}</td><td>${origem}</td><td>${destino}</td></tr>`).appendTo(tabela);
+    })
 
 
 }
@@ -49,7 +61,7 @@ function convert(data){
 
 d3.json("flare.json").then(function (data) {
     data = convert(data);
-    console.log(JSON.stringify(data));
+    writeTable(data);
     addParentNode(data);
     var root = stratify(data);
     cluster(root);
@@ -117,7 +129,6 @@ function getPaths(leaves) {
 
 function mouseovered(d) {
     node.each(n => { n.target = n.source = false; });
-    debugger;
     link.classed("link--target", l => { if (l.target === d) return l.source.source = true; })
         .classed("link--source", l => { if (l.source === d) return l.target.target = true; })
         .filter(l => l.target === d || l.source === d)
