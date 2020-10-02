@@ -48,7 +48,7 @@ function writeTable(data){
         })
         dados.push( obj );
     });
-    dados = _.orderBy( dados, 'origem', 'desc');
+    dados = _.orderBy( dados, 'destino', 'desc');
 
     dados.forEach( ({nome,origem,destino}) => {
         $( `<tr><td>${nome}</td><td>${origem}</td><td>${destino}</td></tr>`).appendTo(tabela);
